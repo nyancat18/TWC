@@ -6,9 +6,7 @@
   <title>The World in Context | News in Context</title>
   <meta content="The World in Context | News in Context" property="og:title">
   <meta content="width=device-width, initial-scale=1" name="viewport">
-  <link href="https://github.com/necolas/normalize.css/raw/master/normalize.css" rel="stylesheet" type="text/css">
-  <link href="css/components.css" rel="stylesheet" type="text/css">
-  <link href="css/theworldincontext.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" >
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
   <script type="text/javascript">
     WebFont.load({
@@ -21,9 +19,9 @@
   <script type="text/javascript">
     try{Typekit.load();}catch(e){}
   </script>
-  <script src="js/modernizr.js" type="text/javascript"></script>
-  <link href="images/TWIC-logo32.png" rel="shortcut icon" type="image/x-icon">
-  <link href="images/TWIC-logo256.png" rel="apple-touch-icon">
+  <script src="wp-content/themes/twc/js/modernizr.js" type="text/javascript"></script>
+  <link href="wp-content/themes/twc/images/TWIC-logo32.png" rel="shortcut icon" type="image/x-icon">
+  <link href="wp-content/themes/twc/images/TWIC-logo256.png" rel="apple-touch-icon">
   <meta name="google-site-verification" content="RVcrzGqjk888aW8VRq3c3AN0QiVqbbZ6XXobbw6tkCw">
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -35,23 +33,3 @@
   </script>
   <link rel="stylesheet" href="https://cdn.rawgit.com/xdamman/selection-sharer/58946273/dist/selection-sharer.css">
 </head>
-<body class="body">
-  <div class="navigation-are">
-    <div class="color-flex-area">
-      <div class="colored-bar"></div>
-      <div class="colored-bar"></div>
-      <div class="colored-bar"></div>
-      <div class="colored-bar"></div>
-      <div class="colored-bar"></div>
-      <div class="colored-bar"></div>
-      <div class="colored-bar"></div>
-      <div class="colored-bar"></div>
-      <div class="colored-bar"></div>
-      <div class="colored-bar"></div>
-      <div class="colored-bar"></div>
-      <div class="colored-bar"></div>
-      <div class="colored-bar"></div>
-      <div class="colored-bar"></div>
-      <div class="colored-bar"></div>
-      <div class="colored-bar"></div>
-    </div>

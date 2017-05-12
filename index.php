@@ -1,12 +1,64 @@
-
-<?php get_header(); ?>
-
+<!DOCTYPE html>
+<!--  Last Published: Sat May 06 2017 13:19:41 GMT+0000 (UTC)  -->
+<html data-wf-page="58cb26559f60dc745197b760" data-wf-site="58476ea7d43b99346538caf0">
+<head>
+  <meta charset="utf-8">
+  <title>The World in Context | News in Context</title>
+  <meta content="The World in Context | News in Context" property="og:title">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" >
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+  <script type="text/javascript">
+    WebFont.load({
+      google: {
+        families: ["PT Serif:400,400italic,700,700italic","Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic","PT Sans:400,400italic,700,700italic","Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic"]
+      }
+    });
+  </script>
+  <script src="https://use.typekit.net/lqs1vff.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    try{Typekit.load();}catch(e){}
+  </script>
+  <script src="wp-content/themes/twc/js/modernizr.js" type="text/javascript"></script>
+  <link href="wp-content/themes/twc/images/TWIC-logo32.png" rel="shortcut icon" type="image/x-icon">
+  <link href="wp-content/themes/twc/images/TWIC-logo256.png" rel="apple-touch-icon">
+  <meta name="google-site-verification" content="RVcrzGqjk888aW8VRq3c3AN0QiVqbbZ6XXobbw6tkCw">
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-83738413-6', 'auto');
+    ga('send', 'pageview');
+  </script>
+  <link rel="stylesheet" href="https://cdn.rawgit.com/xdamman/selection-sharer/58946273/dist/selection-sharer.css">
+</head>
+<body class="body">
+  <div class="navigation-are">
+    <div class="color-flex-area">
+      <div class="colored-bar"></div>
+      <div class="colored-bar"></div>
+      <div class="colored-bar"></div>
+      <div class="colored-bar"></div>
+      <div class="colored-bar"></div>
+      <div class="colored-bar"></div>
+      <div class="colored-bar"></div>
+      <div class="colored-bar"></div>
+      <div class="colored-bar"></div>
+      <div class="colored-bar"></div>
+      <div class="colored-bar"></div>
+      <div class="colored-bar"></div>
+      <div class="colored-bar"></div>
+      <div class="colored-bar"></div>
+      <div class="colored-bar"></div>
+      <div class="colored-bar"></div>
+    </div>
     <div class="navigation w-nav" data-animation="default" data-collapse="medium" data-duration="400">
       <div class="container w-container">
-        <a class="brand w-nav-brand" href="#"><img class="img" src="images/unnamed.png" width="169">
+        <a class="brand w-nav-brand" href="#"><img class="img" src="wp-content/themes/twc/images/unnamed.png" width="169">
         </a>
         <div class="share-buttons">
-          <a class="link-block w-inline-block" href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fwww.theworldincontext.com%2F&amp;ref_src=twsrc%5Etfw&amp;text=Unbiased%20news%20directed%20to%20your%20inbox%20daily%&amp;tw_p=tweetbutton"><img sizes="70px" src="images/tweetbutton.png" srcset="images/tweetbutton-p-500x161.png 500w, images/tweetbutton.png 576w" width="70">
+          <a class="link-block w-inline-block" href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fwww.theworldincontext.com%2F&amp;ref_src=twsrc%5Etfw&amp;text=Unbiased%20news%20directed%20to%20your%20inbox%20daily%&amp;tw_p=tweetbutton"><img sizes="70px" src="wp-content/themes/twc/images/tweetbutton.png" srcset="wp-content/themes/twc/images/tweetbutton-p-500x161.png 500w, wp-content/themes/twc/images/tweetbutton.png 576w" width="70">
           </a>
         </div>
         <div class="menu-nv"><a class="navlinks" href="index.html">Home</a><a class="navlinks" href="about.html">About</a>
@@ -155,7 +207,7 @@
   </div>
   <div class="popup-div-faq">
     <div class="close-block">
-      <div class="close-faq" data-ix="close-popup-2"><img src="images/cancel-2.svg" width="25">
+      <div class="close-faq" data-ix="close-popup-2"><img src="wp-content/themes/twc/images/cancel-2.svg" width="25">
       </div>
     </div>
     <h1 class="heading-2">About</h1>
@@ -175,5 +227,16 @@
       <br>
       <br> (Disclosure: This project is 100% mine, and does not reflect the views of my employer, my girlfriend's cats, or anyone else. It's just me!)</p>
   </div>
-
-<?php get_footer(); ?>
+  <div class="footer">
+    <div>2017 © The World in Context | Created with ❤ by <a href="https://micastudios.co" class="mica-studios">Mica Studios</a>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
+  <script src="wp-content/themes/twc/js/sit.js" type="text/javascript"></script>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+  <script src="https://cdn.rawgit.com/xdamman/selection-sharer/58946273/dist/selection-sharer.js"></script>
+  <script>
+    $('p').selectionSharer();
+  </script>
+</body>
+</html>
